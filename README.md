@@ -7,14 +7,14 @@ The goal was to practice system administration skills such as domain management,
 
 ## Tools & Technologies
 - VirtualBox
-- Windows Server 2019
+- Windows Server 2022
 - Windows 10 Enterprise
 - Active Directory
 - Group Policy Objects (GPO)
 - Azure AD Connect
 
 ## Lab Setup
-1. Installed VirtualBox and created a Windows Server 2019 VM.  
+1. Installed VirtualBox and created a Windows Server 2022 VM.  
 2. Configured static IP, hostname, and promoted it to a Domain Controller.  
 3. Joined Windows 10 clients to the domain.  
 4. Created user accounts and organizational units (OUs).  
