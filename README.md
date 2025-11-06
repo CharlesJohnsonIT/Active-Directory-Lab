@@ -2,7 +2,7 @@
 Hands On Active Directory lab setup and documentation
 
 ## Overview
-This project demonstrates a hands-on setup of a Windows Server 2019 Active Directory environment in a virtualized lab.  
+This project demonstrates a hands-on setup of a Windows Server 2022 Active Directory environment in a virtualized lab.  
 The goal was to practice system administration skills such as domain management, user/group creation, and Group Policy configuration.  
 
 ## Tools & Technologies
