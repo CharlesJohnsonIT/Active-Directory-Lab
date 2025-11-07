@@ -8,33 +8,33 @@ The goal was to practice system administration skills such as domain management,
 ## Tools & Technologies
 - Platform: VirtualBox
 - Server OS: Windows Server 2022
-- Clent OS:Windows 11 Pro
+- Clent OS: Windows 11 Pro
 - Domain Name: cjohnson.local
 - Active Directory
 - Group Policy Objects (GPO)
 - Azure AD Connect
 
 ## Lab Setup and Key Configurations
-  # 1. Virutal Environment Setup
+ ### 1. Virutal Environment Setup
   - Installed and configured VirtualBox
   - Created two virtual machines:
     - Server: Windows Server 2022 (Domain Controller)
     - Client: Windows 11 jointed to the domain.
 
-  # 2. Active Directory and Domain Setup
+  ### 2. Active Directory and Domain Setup
   - Windows Server 2022 to a Domain Controller
   - Added windows 11 clients to cjohnson.local domain
 
-  # 3. User and Group Management
+  ### 3. User and Group Management
   - Created Active Directory template accounts with custom properties
   - Created organization units (OUs) for different departments. 
 
-  # 4. Group Policy Management 
-    - Created and linked Group Policy Objects (GPOs) to enforce:
-      - Password requirements
-      - Wallpaper settings
-      - Login banners
-# 5. Azure AD Integration 
+  ### 4. Group Policy Management 
+  - Created and linked Group Policy Objects (GPOs) to enforce:
+    - Password requirements
+    - Wallpaper settings
+    - Login banners
+### 5. Azure AD Integration 
   - Installed and configured Azure AD Connect.
   - Implemented hybrid Azure AD join and seamless single sign on (SSO) using password hash sync.
 
